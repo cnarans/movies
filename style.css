@@ -1,0 +1,52 @@
+body{
+	margin: 0 !important;
+	padding:0 !important;
+}
+
+.wrapper{
+	display:flex;
+}
+
+.left{
+	display:flex;
+	flex-flow:column;
+	width:200px;
+}
+
+.center{
+	background:#FFFFFF;
+	display:flex;
+	flex-flow:column;
+	width:800px;
+}
+
+.right{
+	display:flex;
+	flex-flow:column;
+	width:200px;
+}
+
+.search{
+	background:#AD4444;
+	height:100px;
+}
+
+.sidebar{
+	background:#0F1215;
+	height:900px;
+}
+
+.profile{
+	background:#75B0B9;
+	height:100px;
+}
+
+.friends{
+	background:#E7E8EB;
+	height:800px;
+}
+
+.chat{
+	background:#B8C0CE;
+	height:100px;
+}
