@@ -81,8 +81,9 @@
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
-					<div class = "movie movie--selected">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
+					<div class = "movie">
+						<img class = "movie__image movie__image--selected" src = "movie.png" alt="movie pic">
+						<img class = "movie__play" alt="play button">
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
@@ -106,8 +107,9 @@
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
-					<div class = "movie movie--selected">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
+					<div class = "movie">
+						<img class = "movie__image movie__image--selected" src = "movie.png" alt="movie pic">
+						<img class = "movie__play" alt="play button">
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
