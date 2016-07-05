@@ -21,7 +21,7 @@
 						<img class = "navLink__button" src="play.png" alt="icon">
 						<div class = "navLink__text">Playing</div>
 					</div>
-					<div class = "navLink">
+					<div class = "navLink navLink--selected">
 						<img class = "navLink__button" src="play.png" alt="icon">
 						<div class = "navLink__text">Discover</div>
 					</div>
@@ -67,11 +67,50 @@
 						Discover
 					</div>
 					<div class = "sort">
-						Release Date | Popularity
+						Release Date 
+						<span class = "sort__divider">|</span>
+						<span class = "sort__selected">Popularity</span>
 					</div>
 					<div class = "buttons">
 						<img class = "topbarButton" src="play.png" alt="icon">
 						<img class = "topbarButton" src="play.png" alt="icon">
+					</div>
+				</div>
+				<div class = "movies">
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
+					</div>
+					<div class = "movie">
+						<img class = "movie__image" src = "movie.png" alt="movie pic">
+						<div class = "movie__title">The Great Gatsby</div>
+						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
 				</div>
 			</div>
@@ -80,17 +119,127 @@
 					Profile
 				</div>
 				<div class = "friends">
+					<div class = "navTitle">Online</div>
 					<div class = "friend">
 						<img class = "friend__pic" src = "face.svg" alt="profile">
-						<div>
+						<div class = "friend__text">
 							<div class = "friend__name">
 								Robert Robertson
 							</div>
-							<div class = "friend_movie">
+							<div class = "friend__movie">
 								Jurassic Park
 							</div>
 						</div>
-						<img class = "friend__status" src="face.svg" alt="status">
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "navTitle">Offline</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Short Name
+							</div>
+							<div class = "friend__movie">
+								Short
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
 					</div>
 				</div>
 				<div class = "chat">
