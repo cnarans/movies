@@ -1,10 +1,11 @@
 body{
 	margin: 0 !important;
-	padding:0 !important;
+	padding: 0 !important;
 }
 
 .wrapper{
 	display:flex;
+	height:100% !important;
 }
 
 .left{
@@ -29,16 +30,27 @@ body{
 .search{
 	background:#AD4444;
 	height:100px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
 }
 
 .sidebar{
 	background:#0F1215;
 	height:900px;
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding:20px;
 }
 
 .profile{
 	background:#75B0B9;
 	height:100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .friends{
@@ -49,4 +61,48 @@ body{
 .chat{
 	background:#B8C0CE;
 	height:100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topbar{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	margin-left:10px;
+	margin-right:10px;
+	height:100px;
+}
+
+.discover{
+
+}
+
+.sort{
+
+}
+
+.buttons{
+
+}
+
+.searchLine{
+	color:#FFFFFF;
+}
+
+.navLink{
+	color:white;
+	padding:10px;
+}
+
+.navLink__button{
+	height:50px;
+	width:50px;
+}
+
+.navTitle{
+	color:gray;
+	padding:10px;
 }
