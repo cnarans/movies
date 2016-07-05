@@ -251,7 +251,8 @@
 				</div>
 				<div class = "chat">
 					<div class = "searchLine">
-						Chat
+						<input class = "chatLine" placeholder="Chat with...">
+						</input>
 					</div>
 				</div>
 			</div>

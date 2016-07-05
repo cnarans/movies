@@ -203,8 +203,23 @@ body{
 	color:white;
 	border:none;
 	border-bottom: 2px solid white;
-	background-image: url('play.png');
-	background-size: 10px 10px;
-	background-position: 100px 0px;
+	background-image: url('search.svg');
+	background-size: 15px 15px;
+	background-position: 110px 1px;
     background-repeat: no-repeat;
+}
+
+.chatLine{
+	background-color:#B8C0CE;
+	color:white;
+	border:none;
+	border-bottom: 2px solid white;
+	background-image: url('search.svg');
+	background-size: 15px 15px;
+	background-position: 110px 1px;
+    background-repeat: no-repeat;
+}
+
+select{
+	background-color:000000;
 }
