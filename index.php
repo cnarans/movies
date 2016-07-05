@@ -9,9 +9,8 @@
 		<div class = "wrapper">
 			<div class = "left">
 				<div class = "search">
-					<div class = "searchLine">
-						Search
-					</div>
+					<input class = "searchLine" placeholder="Search movies...">
+					</input>
 				</div>
 				<div class = "sidebar">
 					<div class = "navTitle">
@@ -82,7 +81,7 @@
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
-					<div class = "movie">
+					<div class = "movie movie--selected">
 						<img class = "movie__image" src = "movie.png" alt="movie pic">
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
@@ -107,7 +106,7 @@
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
 					</div>
-					<div class = "movie">
+					<div class = "movie movie--selected">
 						<img class = "movie__image" src = "movie.png" alt="movie pic">
 						<div class = "movie__title">The Great Gatsby</div>
 						<div class = "movie__info">Drama, Romance<br>143 min</div>
@@ -116,7 +115,15 @@
 			</div>
 			<div class = "right">
 				<div class = "profile">
-					Profile
+					<div class = "friend">
+						<img class = "friend__pic" src = "face.svg" alt="profile">
+						<div class = "friend__text">
+							<div class = "friend__name">
+								Colin Narans
+							</div>
+						</div>
+						<img class = "friend__status" src="green.svg" alt="status">
+					</div>
 				</div>
 				<div class = "friends">
 					<div class = "navTitle">Online</div>

@@ -48,6 +48,7 @@ body{
 }
 
 .profile{
+	color:white;
 	background:#75B0B9;
 	height:100px;
 	display:flex;
@@ -180,13 +181,13 @@ body{
 	padding:10px;
 }
 
+.movie--selected{
+	-webkit-filter:brightness(20%);
+}
+
 .movie__image{
 	height:180px;
 	width:120x;
-}
-
-.movie__image--selected{
-	
 }
 
 .movie__title{
@@ -195,4 +196,15 @@ body{
 
 .movie__info{
 	color:gray;
+}
+
+.searchLine{
+	background-color:#AD4444;
+	color:white;
+	border:none;
+	border-bottom: 2px solid white;
+	background-image: url('play.png');
+	background-size: 10px 10px;
+	background-position: 100px 0px;
+    background-repeat: no-repeat;
 }
