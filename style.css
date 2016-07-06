@@ -7,13 +7,14 @@ body{
 
 .wrapper{
 	display:flex;
-	height:100% !important;
+	height:100%; !important;
 }
 
 .left{
 	display:flex;
 	flex-flow:column;
 	width:200px;
+	background:#0F1215;
 }
 
 .center{
@@ -31,40 +32,41 @@ body{
 
 .search{
 	background:#AD4444;
-	height:100px;
+	height:15vh;
 	display:flex;
 	justify-content: center;
 	align-items:center;
+	width:200px;
 }
 
 .sidebar{
 	background:#0F1215;
-	height:900px;
+	min-height:85vh;
 	display:flex;
 	flex-direction:column;
 	justify-content: flex-start;
 	align-items: flex-start;
 	padding:20px;
+	width:200px;
 }
 
 .profile{
 	color:white;
 	background:#75B0B9;
-	height:100px;
-	display:flex;
-	justify-content: center;
-	align-items: center;
+	height:15vh;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 .friends{
 	background:#E7E8EB;
-	height:800px;
+	min-height:70vh;
 	padding:10px;
 }
 
 .chat{
 	background:#B8C0CE;
-	height:100px;
+	height:15vh;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -90,12 +92,16 @@ body{
  align-items:center;
 }
 
+.sort a{
+	text-decoration:none;
+}
+
 .sort__divider{
 	font-size:20px;
 	padding:10px;
 }
 
-.sort__selected{
+.sort__link--selected{
 	color:#75B0B9;
 }
 
@@ -107,11 +113,20 @@ body{
 	color:#FFFFFF;
 }
 
+.linkList{
+	list-style-type:none;
+	list-style-position:inside;
+	padding:0;
+}
+
+.linkList li{
+	padding: 10px;
+}
+
 .navLink{
-	padding:10px;
 	display:flex;
 	align-items:center;
-	width:140px;
+	width:100%;
 }
 
 .navLink--selected{
@@ -130,7 +145,7 @@ body{
 
 .navTitle{
 	color:gray;
-	padding:10px;
+	margin-left:10px;
 }
 
 .topbarButton{
@@ -142,7 +157,6 @@ body{
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
-	padding:10px;
 }
 
 .friend__pic{
@@ -168,6 +182,7 @@ body{
 .friend__status{
 	height:10px;
 	width:10px;
+	margin-right:10px;
 }
 
 .movies{
@@ -205,6 +220,15 @@ body{
 	content:url("play.png");
 }
 
+.movie__rewind{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	content:url("play.png");
+}
+
 .movie__title{
 	
 }
@@ -214,33 +238,15 @@ body{
 }
 
 .searchLine{
-	background-color:#AD4444;
+	background-color:transparent;
 	color:white;
 	border:none;
 	border-bottom: 2px solid white;
 	background-image: url('search.svg');
 	background-size: 15px 15px;
-	background-position: 110px 1px;
+	background-position: right center;
     background-repeat: no-repeat;
-}
-
-.chatLine{
-	background-color:#B8C0CE;
-	color:white;
-	border:none;
-	border-bottom: 2px solid white;
-	background-image: url('search.svg');
-	background-size: 15px 15px;
-	background-position: 110px 1px;
-    background-repeat: no-repeat;
-}
-
-.searchLine:focus{
-	outline:none;
-}
-
-.chatLine{
-	outline:none;
+    outline:none;
 }
 
 ::-webkit-input-placeholder { 
