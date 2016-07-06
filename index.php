@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Movies!</title>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class = "wrapper">

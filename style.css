@@ -1,7 +1,7 @@
 body{
 	margin: 0 !important;
 	padding: 0 !important;
-	font-family:sans-serif;
+	font-family:"Open Sans", sans-serif;
 	font-size:12px;
 }
 
@@ -101,6 +101,10 @@ body{
 	padding:10px;
 }
 
+.sort__link{
+
+}
+
 .sort__link--selected{
 	color:#75B0B9;
 }
@@ -129,6 +133,10 @@ body{
 	width:100%;
 }
 
+.navLink:hover{
+	-webkit-filter:brightness(2);
+}
+
 .navLink--selected{
 	background:#171B20;
 }
@@ -153,10 +161,18 @@ body{
 	width:25px;
 }
 
+.topbarButton:hover{
+	-webkit-filter:brightness(3);
+}
+
 .friend{
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
+}
+
+.friend:hover{
+	-webkit-filter:brightness(2);
 }
 
 .friend__pic{
@@ -220,6 +236,10 @@ body{
 	content:url("play.png");
 }
 
+.movie__play:hover{
+	-webkit-filter:brightness(3);
+}
+
 .movie__rewind{
 	height: 20px;
 	width: 20px;
@@ -227,6 +247,10 @@ body{
 	top: 20px;
 	left: 100px;
 	content:url("play.png");
+}
+
+.movie__rewind:hover{
+	-webkit-filter:invert(100%);
 }
 
 .movie__title{
