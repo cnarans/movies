@@ -1,3 +1,9 @@
+<?php
+include 'script.php';
+$movies = getMovies("movies.txt");
+$movies[1]->select();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -83,45 +89,16 @@
 					</div>
 				</div>
 				<div class = "movies">
+				<?php foreach($movies as $movie){?>
 					<div class = "movie l-movie">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
+						<img class = "movie__image <?php if($movie->isSelected){echo 'movie__image--selected';} ?>" src = "<?php echo $movie->image;?>" alt="movie pic">
+						<?php if($movie->isSelected){?>
+							<img class = "movie__play" alt="play button">
+							<img class = "movie__rewind" alt="rewind"><?php }?>
+						<div class = "movie__title"><?php echo $movie->name;?></div>
+						<div class = "movie__info"><?php echo $movie->genres . '<br>' . $movie->runtime;?> min</div>
 					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image movie__image--selected" src = "movie.png" alt="movie pic">
-						<img class = "movie__play" alt="play button">
-						<img class = "movie__rewind" alt="rewind">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image" src = "movie.png" alt="movie pic">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
-					<div class = "movie l-movie">
-						<img class = "movie__image movie__image--selected" src = "movie.png" alt="movie pic">
-						<img class = "movie__play" alt="play button">
-						<img class = "movie__rewind" alt="rewind">
-						<div class = "movie__title">The Great Gatsby</div>
-						<div class = "movie__info">Drama, Romance<br>143 min</div>
-					</div>
+				<?php } ?>
 				</div>
 			</div>
 			<div class = "right">

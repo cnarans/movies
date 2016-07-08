@@ -209,10 +209,13 @@ body{
 }
 
 .movie{
-	padding:10px;
 	position: relative; 
 	left: 0; 
 	top: 0;
+}
+
+.l-movie{
+	padding:10px;
 }
 
 .movie__image--selected{
@@ -225,6 +228,7 @@ body{
 	position: relative; 
 	left: 0; 
 	top: 0;
+	border-radius: 10px;
 }
 
 .movie__play{
